@@ -15,7 +15,7 @@ class KartuInfo extends StatelessWidget {
         child: Column(
           children: [
             _BarisInfo(ikon: Icons.email_outlined, teks: profil.email),
-            _BarisInfo(ikon: Icons.phone_outlined, teks: profil.telepon!),
+            _BarisInfo(ikon: Icons.phone_outlined, teks: profil.telepon ?? '-'),
             _BarisInfo(ikon: Icons.location_on_outlined, teks: profil.lokasi),
             _BarisInfo(ikon: Icons.school_outlined, teks: profil.prodi),
           ],
@@ -39,7 +39,9 @@ class _BarisInfo extends StatelessWidget {
         children: [
           Icon(ikon, size: 20),
           const SizedBox(width: 12),
-          Text(teks),
+          Expanded(
+            child: Text(teks),
+          ),
         ],
       ),
     );
