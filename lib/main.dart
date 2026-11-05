@@ -14,7 +14,7 @@ class AplikasiProfil extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.orange),
       ),
       home: const HalamanProfil(),
     );

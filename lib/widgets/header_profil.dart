@@ -20,7 +20,7 @@ class HeaderProfil extends StatelessWidget {
               height: 160,
               decoration: const BoxDecoration(
                 gradient: LinearGradient(
-                  colors: [Color(0xFF3949AB), Color(0xFF7986CB)],
+                  colors: [Colors.deepOrange, Colors.orangeAccent],
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
                 ),
