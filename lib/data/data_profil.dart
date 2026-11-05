@@ -1,16 +1,16 @@
 import '../models/profil.dart';
 
 const Profil dataProfil = Profil(
-  nama: 'Nama Lengkap Mahasiswa',
-  nim: '0000000000',
+  nama: 'Miftahul Jannah',
+  nim: '24011130444',
   kelas: '5A',
-  prodi: 'Teknik Informatika, Fakultas Ilmu Komputer dan Teknologi Informasi',
+  prodi: 'Manajemen Informatika, Fakultas Ilmu Komputer dan Teknologi Informasi',
   bio: 'Mahasiswa semester 5 yang sedang belajar membangun aplikasi mobile '
       'dengan Flutter. Suka membuat antarmuka yang rapi dan mudah dipakai.',
-  email: 'nama.lengkap.mahasiswa@student.universitas-contoh.ac.id',
+  email: 'miftahuljannah2024@ubs.ac.id ',
   telepon: null,
-  lokasi: 'Kota, Provinsi',
-  fotoAsset: 'assets/foto_profil.jpg',
+  lokasi: 'Kota Bekasi, Jawa Barat, Indonesia',
+  fotoAsset: 'assets/foto_profil.jpeg',
   proyek: 4,
   pengikut: 128,
   mengikuti: 75,
