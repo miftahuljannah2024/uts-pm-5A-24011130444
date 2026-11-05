@@ -14,6 +14,8 @@ class GaleriProyek extends StatelessWidget {
         Text('Proyek', style: Theme.of(context).textTheme.titleMedium),
         const SizedBox(height: 8),
         GridView.count(
+          shrinkWrap: true,
+          physics: const NeverScrollableScrollPhysics(),
           crossAxisCount: 2,
           mainAxisSpacing: 8,
           crossAxisSpacing: 8,
