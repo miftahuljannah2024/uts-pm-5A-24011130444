@@ -16,12 +16,9 @@ const Profil dataProfil = Profil(
   mengikuti: 75,
   keahlian: [
     'Flutter',
-    'Dart',
     'Git',
     'UI Design',
-    'Firebase',
-    'REST API',
     'Figma',
   ],
-  galeri: ['Aplikasi Kasir', 'Catatan Harian', 'Toko Online', 'Kalkulator'],
+  galeri: ['Website Pembelajaran Arsip Digital', 'Aplikasi Mobile', 'Toko Online', 'Website Company Profile'],
 );
