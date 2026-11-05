@@ -19,6 +19,7 @@ class GaleriProyek extends StatelessWidget {
           crossAxisCount: 2,
           mainAxisSpacing: 8,
           crossAxisSpacing: 8,
+          childAspectRatio: 3 / 2,
           children: [
             for (final j in judul)
               Container(
