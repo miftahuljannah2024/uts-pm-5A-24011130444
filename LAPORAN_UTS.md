@@ -26,6 +26,7 @@ Solusi: Membungkus kolom dengan Expanded agar ukurannya fleksibel, serta menamba
 
 ##Penggunaan AI (Generative AI Prompt Log)
 1.Penyederhanaan Perintah UTS
+2.Membantu mencari bug yang salah / error
 2.Konsultasi Alur Git & Workflow:
    -Apakah setiap perbaikan bug harus langsung dilakukan git commit terpisah sebelum push?
 3.Verifikasi Tampilan & Deteksi Bug Tersembunyi:
