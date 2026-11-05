@@ -12,13 +12,12 @@ class DaftarKeahlian extends StatelessWidget {
       children: [
         Text('Keahlian', style: Theme.of(context).textTheme.titleMedium),
         const SizedBox(height: 8),
-        Row(
+        Wrap(
+          spacing: 8,
+          runSpacing: 8,
           children: [
             for (final k in keahlian)
-              Padding(
-                padding: const EdgeInsets.only(right: 8),
-                child: Chip(label: Text(k)),
-              ),
+              Chip(label: Text(k)),
           ],
         ),
       ],
